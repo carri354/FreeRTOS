@@ -1,0 +1,24 @@
+# Arduino IDE generated files
+*.ino.hex
+*.ino.eep
+*.ino.bin
+*.lss
+*.map
+
+# Temporary or backup files
+*~
+*.bak
+.DS_Store
+
+# Platform-specific build artifacts (common for various IDEs/platforms)
+build/
+Release/
+Debug/
+_vm/
+.vscode/ # Optional: if you don't want to share VS Code settings
+.idea/ # Optional: if you don't want to share other IDE settings
+
+# Exclude any secrets file you may have
+secrets.h
+config_secrets.h
+
